@@ -8,10 +8,40 @@
 <body>
    <script>
 
+  /* Push Function */ 
     const studentNames = ["Himanshu", "Harsh", "Shubham"]
     console.log('Before Push:', studentNames)
     studentNames.push("Stuti", "Anuja")
     console.log('After Push:', studentNames)
+
+     /* Pop Function */ 
+
+     console.log("Before Pop:", studentNames)
+     studentNames.pop()
+     console.log('After Pop:', studentNames)   
+     
+
+      /* shift Function */ 
+     
+     console.log("Before shift:", studentNames)
+     studentNames.shift("Aditi", "Sonal","Anjana")
+     console.log('After shift:', studentNames)  
+     
+      /* unshift Function */ 
+
+      console.log("Before Unshift:", studentNames)
+     studentNames.unshift("Aditi", "Sonal","Anjana")
+     console.log('After Unshift:', studentNames)   
+
+       /* splice Function */ 
+
+     const fruits = ['apple', 'mango', 'orange', 'papaya', 'banana', 'jackfruit']  
+     console.log(fruits)
+     console.log('Before splice', fruits)
+     fruits.splice(1, 2, 'grapes', 'strawberry', 'watermelon')
+     console.log('After splice:', fruits)
+     
+    
    </script> 
     
 </body>
